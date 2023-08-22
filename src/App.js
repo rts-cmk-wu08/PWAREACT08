@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 import { Outlet } from 'react-router-dom';
-
+import PWAPrompt from 'react-ios-pwa-prompt'
 function App() {
   return (
     <>
@@ -15,6 +15,7 @@ function App() {
     <footer>
         <p>do it properly</p>
     </footer>
+    <PWAPrompt copyTitle="Føj til hjemmeskærm"/>
     </>
   );
 }
