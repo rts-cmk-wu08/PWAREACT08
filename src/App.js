@@ -15,7 +15,8 @@ function App() {
         <p>this is header</p>
         <nav>
           <Link to="/">home</Link> &nbsp; &nbsp;
-        <Link to="/location">Location</Link>
+        <Link to="/location">Location</Link>&nbsp; &nbsp;
+        <Link to="/Gyro">Gyro</Link>
         </nav>
     </header>
     <main>
