@@ -29,6 +29,11 @@ const Gyro = () => {
         }
     })
   }
+  const vibrate_1 = () => {
+    if(navigator.vibrate([500])){
+        setDeviceAlpha()
+    }
+  }
   return (
     <>
       <h1>Gyroscope</h1>
@@ -40,6 +45,7 @@ const Gyro = () => {
       {isIOS && !deviceAlpha ? (
         <button onClick={enableDeviceOrientation}>Enable on Iphone</button>
       ) : null}
+      <button onClick={vibrate_1}>Vibrate</button>
     </>
   );
 };
