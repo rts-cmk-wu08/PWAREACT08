@@ -2,7 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, Route} from "react-route
 import App from "./App";
 import Home from "./pages/Home";
 import Location from "./pages/Location";
-
+import Gyro from "./pages/Gyro";
 
 
 export const router = createBrowserRouter(
@@ -10,6 +10,7 @@ export const router = createBrowserRouter(
     <Route path="/" element={<App/>}>
 <Route index element={<Home/>} />
 <Route path="/location" element={<Location/>} />
+<Route path="/gyro" element={<Gyro/>} />
         </Route>
         
        
