@@ -30,7 +30,7 @@ const Gyro = () => {
     })
   }
   const vibrate_1 = () => {
-    if(navigator.vibrate([500])){
+    if(navigator.vibrate([1000,200,5000,500,8000,500,10000])){
         setDeviceAlpha()
     }
   }
