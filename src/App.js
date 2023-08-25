@@ -16,7 +16,8 @@ function App() {
         <nav>
           <Link to="/">home</Link> &nbsp; &nbsp;
         <Link to="/location">Location</Link>&nbsp; &nbsp;
-        <Link to="/Gyro">Gyro</Link>
+        <Link to="/Gyro">Gyro</Link>&nbsp; &nbsp;
+        <Link to="/map">map</Link>
         </nav>
     </header>
     <main>
