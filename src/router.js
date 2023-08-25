@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Location from "./pages/Location";
 import Gyro from "./pages/Gyro";
 import MyMap from "./pages/MyMap";
+import LocalBase from "./pages/Localbase";
 
 
 export const router = createBrowserRouter(
@@ -13,6 +14,7 @@ export const router = createBrowserRouter(
 <Route path="/location" element={<Location/>} />
 <Route path="/gyro" element={<Gyro/>} />
 <Route path="/map" element={<MyMap/>} />
+<Route path="/localbase" element={<LocalBase/>} />
         </Route>
         
        

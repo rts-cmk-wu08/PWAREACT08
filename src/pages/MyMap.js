@@ -15,14 +15,14 @@ const MyMap = () => {
         initialViewState={{
             latitude:55.7060378,
             longitude:12.5142235,
-            zoom:16,
+            zoom:17,
         }}
         >
 <NavigationControl/>
 <Marker latitude={55.7060378} longitude={12.5142235} color="red"/>
 
 <GeolocateControl 
-trackUserLocation={ true} 
+trackUserLocation={true} 
 PostionOptions={{enableHighAccuracy:true}}
 showAccuracyCircle={true}
 auto
